@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import Splash from './components/Splash/Splash';
+import './App.scss'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>hi!!!</h1>
+      <p className='App-paragraph'>Hello from App!!</p>
+      <Splash/>
       </div>
     );
   }

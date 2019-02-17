@@ -10,3 +10,21 @@ $alt-blue: #078CA1;
 $lt-blue: #7797A2;
 $lt-brown: #A28642;
 $dk-brown: #68562A;
+$dark-bkgrnd: #052738;
+
+
+@mixin flex-container($height, $width, $alignItems: center, $justifyContent: center, $flexDirection: row) {
+    height: $height;
+    width: $width;
+    display: flex;
+    flex-direction: $flexDirection;
+    align-items: $alignItems;
+    justify-content: $justifyContent;
+
+};
+
+@mixin center-container {
+    display: block;
+    margin: 0 auto;
+    
+}

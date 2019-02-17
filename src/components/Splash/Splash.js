@@ -6,8 +6,9 @@ class Splash extends Component {
     
     render(){
         return(
-            <div id='splash'>
+            <div className='container' id='splash'>
                 <h1>Jonathan Waller</h1>
+                <p>Full Stack Web Developer</p>
             </div>
         )
     }

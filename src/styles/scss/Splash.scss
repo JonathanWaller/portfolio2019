@@ -1,21 +1,16 @@
 @import './Variables.scss';
 
-// #splash {
-//     background: linear-gradient(to bottom, rgba(0,0,0,.4) 0%,rgba(0,0,0,0) 100%),url('../../assets/trees-horizon.jpg');
-//     color: $main-white;
-// }
-
 
 #splash {
     background: linear-gradient(to bottom, rgba(0,0,0,.4) 0%,rgba(0,0,0,0) 100%),url('../../assets/trees-horizon.jpg');
+    -webkit-clip-path: circle(90.7% at 50% 5%);
+    clip-path: circle(95.7% at 50% 5%);
     background-size: cover;
     background-repeat: no-repeat;   
     height: 100vh;
-    // color: #fdfdfd;
     color: $main-white;
 }
-    // -webkit-clip-path: circle(90.7% at 50% 5%);
-    
-// #splash { 
-//     color: blue;
-// }
+
+.container {
+     @include flex-container(100vh, 100vw, center, center, column);
+}

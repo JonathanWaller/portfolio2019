@@ -9,8 +9,13 @@
     background-repeat: no-repeat;   
     height: 100vh;
     color: $main-white;
+    
+    // display: flex;
+    border: 1px solid red;
+    // justify-content: space-between;
+    // flex-direction: row;
 }
 
 .container {
-     @include flex-container(100vh, 100vw, center, center, column);
+    //  @include flex-container(100vh, 100vw, center, center, column);
 }

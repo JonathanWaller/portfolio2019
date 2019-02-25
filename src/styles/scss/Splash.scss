@@ -19,3 +19,29 @@
 .container {
     //  @include flex-container(100vh, 100vw, center, center, column);
 }
+
+.splash-text{
+    // border: 1px solid blue;
+    margin-top: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box{
+    border: 1px solid #595959;
+    // padding: 10px;
+    background-color: white;
+}
+
+.inner-text{
+    color: #595959;
+    margin: 8px;
+}
+
+.outer-box{
+    // border: 1px solid orange;
+    padding: 8px;
+    background-color: white;
+}

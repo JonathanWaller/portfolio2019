@@ -8,7 +8,6 @@ class Header extends Component {
     render(){
         return(
             <div className='header'>
-                {/* <p>hey from header</p> */}
                 <div className='hamburger'><FontAwesomeIcon icon={faBars} /></div>
             </div>
         )

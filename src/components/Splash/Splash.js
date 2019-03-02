@@ -3,6 +3,9 @@ import Header from '../Header/Header';
 import Links from '../Links/Links'
 import zenscroll from "zenscroll";
 import '../../styles/scss/Splash.scss';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 class Splash extends Component {
     
@@ -21,6 +24,7 @@ class Splash extends Component {
                     </div>
                     </div>
                 </div>
+                <div><FontAwesomeIcon icon={faGithub} /></div>
             </div>
         )
     }

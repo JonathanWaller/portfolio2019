@@ -8,8 +8,6 @@ class Links extends Component{
             <div className='links-wrapper'>
                 <div>About</div>
                 <div>Projects</div>
-                <div>Resume</div>
-                <div>Contact</div>
             </div>
         )
     }

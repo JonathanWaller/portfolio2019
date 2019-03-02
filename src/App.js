@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Splash from './components/Splash/Splash';
 import About from './components/About/About';
-import Skills from './components/Skills/Skills'
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer'
 import './App.scss'
@@ -22,8 +21,6 @@ class App extends Component {
       <div className="App">
       <Splash/>
       <About />
-      <i class="fas fa-map-marker-alt"></i>
-      <Skills />
       <Projects />
       <Footer />
       </div>

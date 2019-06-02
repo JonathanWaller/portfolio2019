@@ -11,6 +11,8 @@ $lt-blue: #7797A2;
 $lt-brown: #A28642;
 $dk-brown: #68562A;
 $dark-bkgrnd: #052738;
+$heading: 'Noto Serif', serif;
+$outer-container_margin: 0 30px;
 
 
 @mixin flex-container($height, $width, $alignItems: center, $justifyContent: center, $flexDirection: row) {
@@ -25,6 +27,13 @@ $dark-bkgrnd: #052738;
 
 @mixin center-container {
     display: block;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
+}
+
+@mixin title {
+    text-decoration: underline;
+}
+
+@mixin mobile-margin{
+    margin: 0 25px;
 }

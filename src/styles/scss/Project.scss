@@ -3,5 +3,37 @@
 
 .project-image {
     // height: 25vh;
-    width: 80vw
+    // width: 80vw
+    width: 100%;
+}
+
+.container{
+    @include flex-container(auto, auto, center, center, column);
+    // border: 1px solid blue;
+    // margin: $outer-container_margin
+}
+
+#project-container{
+    margin: $outer-container-margin;
+    text-decoration: none;
+    
+}
+
+#project-container a {
+    text-decoration: none;
+}
+
+.project-text-wrapper{
+    @include flex-container(auto, auto, center, center, column);
+    // border: 1px solid blue;
+}
+
+.project-text {
+    text-decoration: none;
+    // border: 1px solid red;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

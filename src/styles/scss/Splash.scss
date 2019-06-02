@@ -9,30 +9,40 @@
     background-repeat: no-repeat;   
     height: 100vh;
     color: $main-white;
-    
-    // display: flex;
-    border: 1px solid red;
-    // justify-content: space-between;
-    // flex-direction: row;
 }
 
-.container {
-    //  @include flex-container(100vh, 100vw, center, center, column);
+.splash-container{
+    // @include flex-container(auto, auto, center, center);
+    display: flex;
+    justify-content: center;
+    padding-top: 30vh;
+    // margin: 0;
+    // height: 100vh;
 }
+
+// .container {
+//     //  @include flex-container(100vh, 100vw, center, center, column);
+// }
+
+// .splash-text{
+//     // border: 1px solid blue;
+//     margin-top: 175px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
 
 .splash-text{
-    // border: 1px solid blue;
-    margin-top: 175px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-container(auto, auto, center, space-between, column);
+    // margin-top: 155px;
+    height: 30%;
+    // border: 1px solid red;
 }
 
 .text-box{
     border: 1px solid #595959;
-    // padding: 10px;
-    background-color: white;
+    background-color: $main-white;
 }
 
 .inner-text{
@@ -43,5 +53,99 @@
 .outer-box{
     // border: 1px solid orange;
     padding: 8px;
-    background-color: white;
+    background-color: $main-white;
 }
+
+.github{
+        font-size: 40px;
+        color: $main-white;
+        margin: 0 10px;
+    }
+    
+.brands-wrapper{
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: row;        
+}
+
+.name-wrapper{
+    @include flex-container(auto, auto, center, center, column);
+}
+
+.name{
+    font-family: $heading;
+    font-size: 40px;
+    margin: 0;
+}
+
+
+// MEDIA QUERIES   
+@media screen and (min-width: 640px) {
+        // border: 1px solid green;
+    #splash {
+        background: linear-gradient(to bottom, rgba(0,0,0,.4) 0%,rgba(0,0,0,0) 100%),url('../../assets/trees-horizon.jpg');
+        -webkit-clip-path: circle(100% at 50% 5%);
+        clip-path: circle(100% at 50% 5%);
+        background-size: cover;
+        background-repeat: no-repeat;   
+        height: 70vh;
+        // color: red;
+    }
+}
+
+
+
+
+//MEDIA QUERIES
+// @media screen and (min-width: 400px){
+//     .card {
+//         width: 300px;
+//     }
+
+//     .about-text {
+//         font-size: 1.3em;
+
+//     }
+// }
+
+// @media screen and (min-width: 640px){
+//     .about-text {
+//         font-size: 1.5em;
+//     }
+// }
+
+
+
+// @media screen and (min-width: 700px){
+//     .card {
+//         width: 400px;
+//     }
+// }
+
+// @media screen and (min-width: 896px){
+//     .card {
+//         width: 260px;
+//     }
+
+//     .about-text {
+//         font-size: 1.6em;
+//     }
+
+//     #text-bg-container{
+//         display: flex;
+//         align-items: center;
+//         flex-direction: column;
+
+//     }
+//     section {
+//         margin-top: 1em;
+//     }
+
+   
+// }
+
+// @media screen and (min-width: 1250px){
+//     section {
+//         margin-top: 8em;
+//     }
+// }

@@ -1,0 +1,7 @@
+@import './Variables.scss';
+
+.projects {
+    @include flex-container(auto, auto, center, center, column);
+    // border: 1px solid red;
+    margin-bottom: 50px;
+}

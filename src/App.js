@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Splash from './components/Splash/Splash';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
+import Footer from './components/Footer/Footer'
 import './App.scss'
 
 
@@ -21,6 +22,7 @@ class App extends Component {
       <Splash/>
       <About />
       <Projects />
+      <Footer />
       </div>
     );
   }

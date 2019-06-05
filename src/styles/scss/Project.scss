@@ -16,7 +16,6 @@
 #project-container{
     margin: $outer-container-margin;
     text-decoration: none;
-    
 }
 
 #project-container a {
@@ -25,7 +24,6 @@
 
 .project-text-wrapper{
     @include flex-container(auto, auto, center, center, column);
-    // border: 1px solid blue;
 }
 
 .project-text {
@@ -36,4 +34,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+// MEDIA QUERIES  
+@media screen and ( min-width: 640px) {
+    #project-container{
+        // border: 1px solid red;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+    .project-text-wrapper{
+    // @include flex-container(auto, auto, center, center, column);
+    border: 1px solid red;
+}
 }

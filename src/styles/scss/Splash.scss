@@ -7,7 +7,7 @@
     clip-path: circle(95.7% at 50% 5%);
     background-size: cover;
     background-repeat: no-repeat;   
-    height: 100vh;
+    height: 98.5vh;
     color: $main-white;
 }
 
@@ -19,19 +19,6 @@
     // margin: 0;
     // height: 100vh;
 }
-
-// .container {
-//     //  @include flex-container(100vh, 100vw, center, center, column);
-// }
-
-// .splash-text{
-//     // border: 1px solid blue;
-//     margin-top: 175px;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-// }
 
 .splash-text{
     @include flex-container(auto, auto, center, space-between, column);
@@ -88,8 +75,36 @@
         clip-path: circle(100% at 50% 5%);
         background-size: cover;
         background-repeat: no-repeat;   
-        height: 70vh;
-        // color: red;
+        height: 65vh;
+        margin-top: 1.5vw;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+        // margin: 1.5vw;
+    }
+    .splash-text {
+        // border: 1px solid red;
+        height: 60%;
+    }
+    .name-wrapper{
+    @include flex-container(auto, auto, center, center, row);
+}
+    .brands-wrapper { 
+        // border: 1px solid blue
+    }
+    .name{
+    // font-family: $heading;
+    font-size: 60px;
+    // margin: 0;
+    }
+    .github{
+        font-size: 60px;
+        // color: $main-white;
+        margin: 0 25px;
+    }
+    .inner-text{
+        // color: #595959;
+        // margin: 8px;
+        font-size: 27px;
     }
 }
 

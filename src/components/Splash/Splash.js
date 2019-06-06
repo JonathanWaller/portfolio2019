@@ -13,7 +13,6 @@ class Splash extends Component {
         return(
             <div className='splash-container' id='splash'>
                 <div className='splash-text'>
-                    {/* <h1 className='name'>Jonathan Waller</h1> */}
                     <div className='name-wrapper'>
                         <h1 className='name'>Jonathan</h1>
                         <h1 className='name'>Waller</h1>

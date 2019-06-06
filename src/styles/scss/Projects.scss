@@ -2,14 +2,12 @@
 
 .projects {
     @include flex-container(auto, auto, center, center, column);
-    // border: 1px solid red;
     margin-bottom: 50px;
 }
 
 // MEDIA QUERIES  
 @media screen and ( min-width: 640px) {
     .projects {
-        // border: 1px solid green;
         margin-left: 10vw;
         margin-right: 10vw;
     }

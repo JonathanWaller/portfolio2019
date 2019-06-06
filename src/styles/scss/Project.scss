@@ -2,15 +2,11 @@
 
 
 .project-image {
-    // height: 25vh;
-    // width: 80vw
     width: 100%;
 }
 
 .container{
     @include flex-container(auto, auto, center, center, column);
-    // border: 1px solid blue;
-    // margin: $outer-container_margin
 }
 
 #project-container{
@@ -20,31 +16,35 @@
 
 #project-container a {
     text-decoration: none;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .project-text-wrapper{
     @include flex-container(auto, auto, center, center, column);
 }
 
+.project-title {
+   text-decoration: none;
+    color: #062B3D;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
 .project-text {
     text-decoration: none;
-    // border: 1px solid red;
-    color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    color: #404040;
 }
 
 // MEDIA QUERIES  
 @media screen and ( min-width: 640px) {
     #project-container{
-        // border: 1px solid red;
         margin-top: 3vh;
         margin-bottom: 3vh;
     }
-    .project-text-wrapper{
-    // @include flex-container(auto, auto, center, center, column);
-    border: 1px solid red;
-}
+    .project-title {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
 }

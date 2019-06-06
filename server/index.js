@@ -3,7 +3,7 @@ require('dotenv').config();
 const express = require('express');
 const { json } = require('body-parser');
 
-const port = 3005;
+const port = 3008;
 
 //initialize express
 const app = express();

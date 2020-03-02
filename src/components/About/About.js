@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import '../../styles/scss/About.scss';
-// import { FontAwesomeIcon}
 
 class About extends Component {
     

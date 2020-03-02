@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../Header/Header';
-import zenscroll from "zenscroll";
 import '../../styles/scss/Splash.scss';
-import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';

@@ -1,23 +1,20 @@
 import React, {Component} from 'react';
-import Project from './Project/Project';
+// import Project from './Project/Project';
 import '../../styles/scss/Projects.scss';
 
 import Example from './Project/Example';
 
-import Gallery from '../Gallery/Gallery';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const restay = require('../../assets/restay.png');
-const laavish = require('../../assets/Laavish.png');
-const freelancer = require('../../assets/Freelancer.png');
+// const restay = require('../../assets/restay.png');
+// const laavish = require('../../assets/Laavish.png');
+// const freelancer = require('../../assets/Freelancer.png');
 
 //restay 
 const restaySplash = require('../../assets/restay/splash.png');
 const properties = require('../../assets/restay/properties.png');
 const property = require('../../assets/restay/property.png');
 const property2 = require('../../assets/restay/property2.png');
-const propertyMobile = require('../../assets/restay/propertyMobile.png');
-const propertyMobile2 = require('../../assets/restay/propertyMobile2.png');
 
 //laavish
 const laavishSplash = require('../../assets/laavish/splash.png');
@@ -38,9 +35,9 @@ class Projects extends Component {
         return(
             <div className='projects'>
                 <h1 className='title'>PROJECTS</h1>
-                <Project img={restay} link='http://restay.io' title='Restay' text='Property management utility for organizing and managing rental properties'/>
+                {/* <Project img={restay} link='http://restay.io' title='Restay' text='Property management utility for organizing and managing rental properties'/>
                 <Project img={laavish} link='http://shoplaavish.online' title='Laavish' text='Ecommerce site dedicated to men&#39;s fashion and accessories'/>
-                <Project img={freelancer} link='http://freelancer.waller-jonathan.com/#/' title='Freelancer' text='Web application which allows small businesses and freelancers (web developers/designers) to interact and source work in a common setting'/>
+                <Project img={freelancer} link='http://freelancer.waller-jonathan.com/#/' title='Freelancer' text='Web application which allows small businesses and freelancers (web developers/designers) to interact and source work in a common setting'/> */}
                 
                 <Example 
                     title='Restay' 

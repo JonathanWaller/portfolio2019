@@ -12,8 +12,7 @@ class About extends Component {
                 <h1 className='title'>ABOUT</h1>
                 <div id = 'text-bg-container'>
                     <section className='text-wrap'>       
-                        <p className = 'about-text'><span className = 'tab'></span>I'm a developer focused on creating beautiful web applications with sensible functionality. I love the precision that goes into frontend design, as well as the logic that goes into building out the backend.</p>
-                        <p className = 'about-text'><span className = 'tab'></span>Lately, I've been using the SERN stack -- SQL, Express, React, and Node. I'm also dabbling in React Native and Python. In my free time, I enjoy running, reading, and pushing myself to seek discomfort. I'm also a gamer at heart.</p>
+                        <p className = 'about-text'><span className = 'tab'></span>I'm a developer focused on creating beautiful web applications and having fun while doing it.</p>
                     </section>
                 </div>
             </div>

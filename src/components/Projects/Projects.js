@@ -43,7 +43,7 @@ class Projects extends Component {
                     title='Restay' 
                     description='Property management utility for organizing and managing rental properties'
                     images={ [ restaySplash, properties, property, property2 ] }
-                    link='http://restay.io'
+                    // link='http://restay.io'
                 />
                 <Example 
                     title='Laavish' 
